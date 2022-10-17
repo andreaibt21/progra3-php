@@ -1,0 +1,87 @@
+[
+    {
+        "_id": 1,
+        "_usuario": {
+            "_id": null,
+            "_email": "andrea@andrea.com"
+        },
+        "_tipo": "crema",
+        "_sabor": "dulce de leche",
+        "_stock": "1",
+        "_fecha": {
+            "date": "2022-10-16 13:45:50.832172",
+            "timezone_type": 3,
+            "timezone": "America\/Argentina\/Buenos_Aires"
+        },
+        "_archivo": ".\\ImagenesDeLaVenta\\\\dulce de leche_crema_andrea_20221017134550.jpg",
+        "numeroDePedido": "748"
+    },
+    {
+        "_id": 2,
+        "_usuario": {
+            "_id": null,
+            "_email": "ixabella@ixabella.com"
+        },
+        "_tipo": "crema",
+        "_sabor": "arequipe",
+        "_stock": "5",
+        "_fecha": {
+            "date": "2022-10-17 13:47:33.851390",
+            "timezone_type": 3,
+            "timezone": "America\/Argentina\/Buenos_Aires"
+        },
+        "_archivo": ".\\ImagenesDeLaVenta\\\\arequipe_crema_ixabella_20221017134733.jpg",
+        "numeroDePedido": "123"
+    },
+    {
+        "_id": 3,
+        "_usuario": {
+            "_id": null,
+            "_email": "ixabella@ixabella.com"
+        },
+        "_tipo": "crema",
+        "_sabor": "chocolate",
+        "_stock": "5",
+        "_fecha": {
+            "date": "2022-10-17 13:47:39.775275",
+            "timezone_type": 3,
+            "timezone": "America\/Argentina\/Buenos_Aires"
+        },
+        "_archivo": ".\\ImagenesDeLaVenta\\\\chocolate_crema_ixabella_20221017134739.jpg",
+        "numeroDePedido": "547"
+    },
+    {
+        "_id": 4,
+        "_usuario": {
+            "_id": null,
+            "_email": "andrea@andrea.com"
+        },
+        "_tipo": "crema",
+        "_sabor": "chocolate",
+        "_stock": "5",
+        "_fecha": {
+            "date": "2022-10-17 13:47:48.631855",
+            "timezone_type": 3,
+            "timezone": "America\/Argentina\/Buenos_Aires"
+        },
+        "_archivo": ".\\ImagenesDeLaVenta\\\\chocolate_crema_andrea_20221017134748.jpg",
+        "numeroDePedido": "156"
+    },
+    {
+        "_id": 5,
+        "_usuario": {
+            "_id": null,
+            "_email": "andrea@andrea.com"
+        },
+        "_tipo": "crema",
+        "_sabor": "chocolate",
+        "_stock": "5",
+        "_fecha": {
+            "date": "2022-10-17 16:24:03.884284",
+            "timezone_type": 3,
+            "timezone": "America\/Argentina\/Buenos_Aires"
+        },
+        "_archivo": ".\\ImagenesDeLaVenta\\\\chocolate_crema_andrea_20221017162403.jpg",
+        "numeroDePedido": "215"
+    }
+]

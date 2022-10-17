@@ -1,0 +1,2 @@
+garage,25
+blanco,audi,25000,

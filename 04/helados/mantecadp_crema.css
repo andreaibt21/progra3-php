@@ -1,0 +1,21 @@
+#cards {
+  border: 1px solid black;
+}
+
+.card {
+  border: 1px solid black;
+  display: inline-block;
+}
+.card figcaption {
+  background-color: black;
+  padding: 5px 10px 10px 10px;
+  color: white;
+  text-align: center;
+}
+.rojo figcaption {
+  background-color: red;
+}
+
+.rotar45 {
+  transform: rotate(45deg);
+}

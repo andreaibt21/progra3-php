@@ -1,0 +1,38 @@
+[
+    {
+        "_id": 1,
+        "_sabor": "dulce de leche",
+        "_precio": "15",
+        "_tipo": "crema",
+        "_stock": 194,
+        "_imagen": ".\\imagenesDeHelados\\dulce de leche_crema.jpg",
+        "_nombreCarpeta": "imagenesDeHelados"
+    },
+    {
+        "_id": 2,
+        "_sabor": "mantecado",
+        "_precio": "15",
+        "_tipo": "crema",
+        "_stock": 400,
+        "_imagen": ".\\imagenesDeHelados\\mantecado_crema.jpg",
+        "_nombreCarpeta": "imagenesDeHelados"
+    },
+    {
+        "_id": 3,
+        "_sabor": "chocolate",
+        "_precio": "15",
+        "_tipo": "crema",
+        "_stock": 60,
+        "_imagen": ".\\imagenesDeHelados\\chocolate_crema.jpg",
+        "_nombreCarpeta": "imagenesDeHelados"
+    },
+    {
+        "_id": 4,
+        "_sabor": "arequipe",
+        "_precio": "200",
+        "_tipo": "crema",
+        "_stock": 95,
+        "_imagen": ".\\imagenesDeHelados\\arequipe_crema.jpg",
+        "_nombreCarpeta": "imagenesDeHelados"
+    }
+]
