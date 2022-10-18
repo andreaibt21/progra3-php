@@ -103,7 +103,7 @@
 			"response": []
 		},
 		{
-			"name": "Venta helados",
+			"name": "Venta hamburguesas",
 			"request": {
 				"method": "POST",
 				"header": [],
