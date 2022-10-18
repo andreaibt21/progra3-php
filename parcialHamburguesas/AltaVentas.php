@@ -33,17 +33,17 @@ if (isset($nombre) && isset($tipo) && isset($cantidad) && isset($email) && isset
 
     $hamburguesaAux = new Hamburguesa($nombre, null, $tipo, null, null);
     $usuarioAux = new Usuario($email);
-    $ventaAux = new Venta($usuarioAux, $nombre, $tipo, $cantidad, $imagen, null, $numeroDePedido);
     $indiceHamburguesaAux = Herramientas::ConsultaSiHayItemEnArray($hamburguesaAux, $arrayHamburguesas);
-
+    
     if ($indiceHamburguesaAux > -1) {
-
+        
         $hamburguesaAuxEnArray = $arrayHamburguesas[$indiceHamburguesaAux];
         $cantidadHamburguesaAuxEnArray = Herramientas::SacarValorDeLaClave($hamburguesaAuxEnArray, "_cantidad");
+        $usuarioAux = $usuarioAux->Alta($arrayUsuarios, $rutaUsuarios);
+        $ventaAux = new Venta($usuarioAux, $nombre, $tipo, $cantidad, $imagen, null, $numeroDePedido);
         $cantidadPedido = Herramientas::SacarValorDeLaClave($ventaAux, "_cantidad");
-
+        
         if ($cantidadHamburguesaAuxEnArray >= $cantidadPedido) {
-            $usuarioAux = $usuarioAux->Alta($arrayUsuarios, $rutaUsuarios);
             if ($ventaAux->Alta(
                 $usuarioAux,
                 $hamburguesaAuxEnArray,

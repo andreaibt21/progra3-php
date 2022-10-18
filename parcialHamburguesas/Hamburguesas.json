@@ -13,7 +13,7 @@
         "_nombre": "mcnifica",
         "_precio": "200",
         "_tipo": "doble",
-        "_cantidad": 145,
+        "_cantidad": 115,
         "_imagen": ".\\imagenesDeHamburguesas\\McNifica_doble.jpg",
         "_nombreCarpeta": "imagenesDeHamburguesas"
     },
@@ -22,7 +22,7 @@
         "_nombre": "woper",
         "_precio": "200",
         "_tipo": "simple",
-        "_cantidad": 860,
+        "_cantidad": 845,
         "_imagen": ".\\imagenesDeHamburguesas\\Woper_simple.jpg",
         "_nombreCarpeta": "imagenesDeHamburguesas"
     }
