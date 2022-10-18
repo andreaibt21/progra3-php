@@ -1,0 +1,407 @@
+{
+	"info": {
+		"_postman_id": "93404f62-1529-4ade-9912-6ad82ea3e779",
+		"name": "HamburguesaApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Alta hamburguesa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "Mctasty",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "doble",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "200",
+							"type": "text"
+						},
+						{
+							"key": "cantidad",
+							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "imagen",
+							"type": "file",
+							"src": "/C:/Users/Andrea/OneDrive/Escritorio/IMG_0251.JPG"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/clasesPHP/parcialHamburguesas/index.php?alta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clasesPHP",
+						"parcialHamburguesas",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "alta",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta hamburguesa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "Mctasty",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "doble",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/clasesPHP/parcialHamburguesas/index.php?consultar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clasesPHP",
+						"parcialHamburguesas",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "consultar",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Venta helados",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "mcnifica",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "doble",
+							"type": "text"
+						},
+						{
+							"key": "cantidad",
+							"value": "15",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ixabella@ixabella.com",
+							"type": "text"
+						},
+						{
+							"key": "imagen",
+							"type": "file",
+							"src": "/C:/Users/Andrea/OneDrive/Escritorio/IMG_0251.JPG"
+						},
+						{
+							"key": "idCupon",
+							"value": "3",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "numeroDePedido",
+							"value": "215",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/clasesPHP/parcialHamburguesas/index.php?venta=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clasesPHP",
+						"parcialHamburguesas",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "venta",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "fechaVenta",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "fechaMinima",
+							"value": "2020-05-18",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "fechaMaxima",
+							"value": "2023-05-18",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "usuario",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "sabor",
+							"value": "sambayon",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/clasesPHP/parcialHamburguesas/index.php?tipo=doble&fechaMinima=2022-10-15&fechaMaxima=2022-10-17&fecha=2022-10-16&usuarioEmail=ixabella@ixabella.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clasesPHP",
+						"parcialHamburguesas",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "consultas",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "tipo",
+							"value": "doble"
+						},
+						{
+							"key": "fechaMinima",
+							"value": "2022-10-15"
+						},
+						{
+							"key": "fechaMaxima",
+							"value": "2022-10-17"
+						},
+						{
+							"key": "fecha",
+							"value": "2022-10-16"
+						},
+						{
+							"key": "usuarioEmail",
+							"value": "ixabella@ixabella.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Modificar venta",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"numeroDePedido\": \"215\",\n    \"email\": \"ixabella@ixabella.com\",\n    \"nombre\": \"woper\",\n    \"tipo\": \"simple\",\n    \"cantidad\": 1\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/clasesPHP/parcialHamburguesas/index.php?",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clasesPHP",
+						"parcialHamburguesas",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar venta",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"id\": 1\n }\n    \n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/clasesPHP/parcialHamburguesa/index.php?",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clasesPHP",
+						"parcialHamburguesa",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Devolver venta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "numeroDePedido",
+							"value": "456",
+							"type": "text"
+						},
+						{
+							"key": "causa",
+							"value": "todo feo",
+							"type": "text"
+						},
+						{
+							"key": "imagen",
+							"type": "file",
+							"src": "/Users/Rus/Desktop/tomate.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/clasesPHP/parcialHamburguesas/index.php?devolucion=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clasesPHP",
+						"parcialHamburguesas",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "devolucion",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultas devoluciones",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost/clasesPHP/parcialHeladeria/index.php?consultasDev=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clasesPHP",
+						"parcialHeladeria",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "consultasDev",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

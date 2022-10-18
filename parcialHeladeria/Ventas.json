@@ -83,5 +83,22 @@
         },
         "_archivo": ".\\ImagenesDeLaVenta\\\\chocolate_crema_andrea_20221017162403.jpg",
         "numeroDePedido": "215"
+    },
+    {
+        "_id": 6,
+        "_usuario": {
+            "_id": null,
+            "_email": "andrea@andrea.com"
+        },
+        "_tipo": "crema",
+        "_sabor": "chocolate",
+        "_stock": "5",
+        "_fecha": {
+            "date": "2022-10-17 19:37:00.066055",
+            "timezone_type": 3,
+            "timezone": "America\/Argentina\/Buenos_Aires"
+        },
+        "_archivo": ".\\ImagenesDeLaVenta\\\\chocolate_crema_andrea_20221017193700.jpg",
+        "numeroDePedido": "215"
     }
 ]

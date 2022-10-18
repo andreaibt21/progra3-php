@@ -22,7 +22,7 @@
         "_sabor": "chocolate",
         "_precio": "15",
         "_tipo": "crema",
-        "_stock": 60,
+        "_stock": 55,
         "_imagen": ".\\imagenesDeHelados\\chocolate_crema.jpg",
         "_nombreCarpeta": "imagenesDeHelados"
     },

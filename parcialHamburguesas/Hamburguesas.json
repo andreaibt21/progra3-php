@@ -1,0 +1,29 @@
+[
+    {
+        "_id": 1,
+        "_nombre": "mctasty",
+        "_precio": "200",
+        "_tipo": "doble",
+        "_cantidad": 195,
+        "_imagen": ".\\imagenesDeHamburguesas\\Mc tasty_doble.jpg",
+        "_nombreCarpeta": "imagenesDeHamburguesas"
+    },
+    {
+        "_id": 2,
+        "_nombre": "mcnifica",
+        "_precio": "200",
+        "_tipo": "doble",
+        "_cantidad": 145,
+        "_imagen": ".\\imagenesDeHamburguesas\\McNifica_doble.jpg",
+        "_nombreCarpeta": "imagenesDeHamburguesas"
+    },
+    {
+        "_id": 3,
+        "_nombre": "woper",
+        "_precio": "200",
+        "_tipo": "simple",
+        "_cantidad": 860,
+        "_imagen": ".\\imagenesDeHamburguesas\\Woper_simple.jpg",
+        "_nombreCarpeta": "imagenesDeHamburguesas"
+    }
+]

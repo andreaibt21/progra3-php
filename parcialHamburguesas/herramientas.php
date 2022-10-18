@@ -1,11 +1,12 @@
 <?php
+//ANDREA BRICEÑO
 
 class Herramientas
 {
 
     public static function CompararNombres($ventaUno, $ventaDos)
     {
-        return strcmp($ventaUno->_sabor, $ventaDos->_sabor);
+        return strcmp($ventaUno->_nombre, $ventaDos->_nombre);
     }
 
 
@@ -63,7 +64,35 @@ class Herramientas
         }
         return $retorno;
     }
+    public static function ConseguirUltimoId($lista,$numeroPartida)
+    {
+        $idMaxima = $numeroPartida;
+        if(count($lista)>0)
+        {
+            foreach ($lista as $item)
+            {
+                if($item->id > $idMaxima)
+                {
+                    $idMaxima =$item->id;
+                }
+            }
+        }
+        return $idMaxima;     
+    }
+    public static function BuscarVenta($lista,$numero)
+    {
 
+        if(count($lista)>0){
+            foreach ($lista as $venta)
+            {
+                if($venta->numeroDePedido == $numero)
+                {
+                    return $venta;
+                }
+            }
+        }
+        return null;
+    }
     public static function ConseguirIdPorElIndex($item, $array)
     {
         $retorno = -1;
